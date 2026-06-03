@@ -47,12 +47,3 @@ Building STL step by step to get familiar to Data Structure.
 - **核心接口**：`insert`、`erase`、`find`、`lower_bound`/`upper_bound`、迭代器顺序遍历。
 
 ---
-
-## 构建与测试
-
-```bash
-git clone https://github.com/yourname/the-process-of-self-building-stl.git
-cd the-process-of-self-building-stl
-mkdir build && cd build
-cmake .. && make
-./test_all   # 运行单元测试
