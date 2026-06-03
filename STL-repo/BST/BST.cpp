@@ -1,4 +1,5 @@
 #include<iostream>
+using namespace std;
 template<class T>
 class BST {
 private:
@@ -40,5 +41,6 @@ public:
 };
 
 int main() {
+	cout<<"work";
 	return 0;
 }
